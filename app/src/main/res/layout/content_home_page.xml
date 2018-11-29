@@ -16,59 +16,12 @@
             android:id="@+id/imageView"
             android:layout_width="@dimen/logodimen"
             android:layout_height="@dimen/logodimen"
-            android:src="@drawable/fasthousing"
+
             android:layout_marginLeft="@dimen/logomargin"
             />
-        <!--<LinearLayout-->
-            <!--android:layout_width="@dimen/jumbotron"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:orientation="horizontal"-->
-            <!--android:layout_gravity="center"-->
-            <!--android:background="@drawable/border"-->
-            <!--android:padding="@dimen/padding">-->
-            <!--<EditText-->
-                <!--android:id="@+id/etType"-->
-                <!--android:layout_weight="1"-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/type"-->
-                <!--android:inputType="text"-->
-                <!--/>-->
 
-            <!--<EditText-->
-                <!--android:id="@+id/etLocation"-->
-                <!--android:layout_weight="1"-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/location"-->
-                <!--android:inputType="text"/>-->
-
-            <!--<EditText-->
-                <!--android:id="@+id/etDuration"-->
-                <!--android:layout_weight="1"-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/duration"-->
-                <!--android:inputType="text"/>-->
-            <!--<SearchView-->
-                <!--android:id="@+id/search_bar"-->
-                <!--android:layout_width="@dimen/jumbotronHeight"-->
-                <!--android:layout_height="@dimen/jumbotronHeight"-->
-                <!--android:layout_gravity="center"-->
-                <!--android:layout_marginLeft="40dp"-->
-                <!--android:background="@color/colorWhite"-->
-                <!--&gt;-->
-
-            <!--</SearchView>-->
-
-            <!--&lt;!&ndash;<SearchView&ndash;&gt;-->
-                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
-                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-                <!--&lt;!&ndash;android:layout_marginLeft="@dimen/searchview"&ndash;&gt;-->
-                <!--&lt;!&ndash;&gt;&ndash;&gt;-->
-            <!--&lt;!&ndash;</SearchView>&ndash;&gt;-->
-        <!--</LinearLayout>-->
     </LinearLayout>
+
 
 
 

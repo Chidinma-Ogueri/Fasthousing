@@ -1,5 +1,6 @@
 package chidinma.com.fasthousing;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -80,15 +81,36 @@ public class HomePage extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_homePage) {
-            // Handle the camera action
-        } else if (id == R.id.nav_rentPage) {
-
-        } else if (id == R.id.nav_blog) {
-
-        } else if (id == R.id.nav_manage) {
-
+        switch (item.getItemId()){
+            case R.id.nav_homePage:
+                startActivity(new Intent(this, HomePage.class));
+                break;
+//            case R.id.nav_rentOffice:
+//                startActivity(new Intent(this, RentDetailActivity.class));
+//                break;
+//            case R.id.nav_shop:
+//                startActivity(new Intent(this, RentDetailActivity.class));
+//                break;
+            case R.id.nav_blog:
+                //write a link here
+                break;
+            case R.id.nav_manage:
+                startActivity(new Intent(this, Setting.class));
+                break;
         }
+
+
+//        if (id == R.id.nav_homePage) {
+//            startActivity(new Intent(this, HomePage.class));
+//
+//            // Handle the camera action
+//        } else if (id == R.id.nav_rentPage) {
+//
+//        } else if (id == R.id.nav_blog) {
+//
+//        } else if (id == R.id.nav_manage) {
+//
+//        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

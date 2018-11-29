@@ -12,19 +12,32 @@
             android:title="@string/sign_up">
         </item>
         </menu>
+
     </item>
 
+    <!--<item android:title="Space">-->
+    <!--<menu>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_rentOffice"-->
+            <!--android:icon="@drawable/location"-->
+            <!--android:title="@string/office">-->
 
+        <!--</item>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_shop"-->
+            <!--android:icon="@drawable/rent"-->
+            <!--android:title="@string/shops">-->
+
+        <!--</item>-->
+    <!--</menu>-->
+    <!--</item>-->
 
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_homePage"
             android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/homePage" />
-        <item
-            android:id="@+id/nav_rentPage"
-            android:icon="@drawable/rent"
-            android:title="@string/rentPage" />
+
         <item
             android:id="@+id/nav_blog"
             android:icon="@drawable/blog"
@@ -34,6 +47,7 @@
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/action_settings" />
     </group>
+
 
 
     <!--<item android:title="Communicate">-->
