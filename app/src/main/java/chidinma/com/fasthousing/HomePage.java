@@ -1,9 +1,14 @@
 package chidinma.com.fasthousing;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
+import android.text.Layout;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -13,9 +18,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.RadioButton;
+import android.widget.TextView;
 
 public class HomePage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +32,8 @@ public class HomePage extends AppCompatActivity
         setContentView(R.layout.activity_home_page);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
 
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
@@ -68,8 +79,18 @@ public class HomePage extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_about_us) {
+        if (id == R.id.action_share) {
+            //this is to call the media handles for sharing
+           Intent action_shareIntent = new Intent(MediaStore.INTENT_ACTION_MEDIA_SEARCH);
             return true;
+        }
+        if (id == R.id.action_like){
+            LayoutInflater layoutInflater = LayoutInflater.from(getApplicationContext());
+        View view = layoutInflater.inflate(R.layout.activity_like_us, null);
+        // AlertDialog used for pop-Ups
+        AlertDialog.Builder builder = new AlertDialog.Builder(HomePage.this);
+        builder.setView(view);
+
         }
 
         return super.onOptionsItemSelected(item);
@@ -85,32 +106,20 @@ public class HomePage extends AppCompatActivity
             case R.id.nav_homePage:
                 startActivity(new Intent(this, HomePage.class));
                 break;
-//            case R.id.nav_rentOffice:
-//                startActivity(new Intent(this, RentDetailActivity.class));
-//                break;
-//            case R.id.nav_shop:
-//                startActivity(new Intent(this, RentDetailActivity.class));
-//                break;
-            case R.id.nav_blog:
-                //write a link here
+//
+            case R.id.nav_sign_up:
+//                startActivity(new Intent(this, LoginActivity.class));
                 break;
+            case R.id.nav_blog:
+
+                //write a link here to medium
+                break;
+
             case R.id.nav_manage:
                 startActivity(new Intent(this, Setting.class));
                 break;
         }
 
-
-//        if (id == R.id.nav_homePage) {
-//            startActivity(new Intent(this, HomePage.class));
-//
-//            // Handle the camera action
-//        } else if (id == R.id.nav_rentPage) {
-//
-//        } else if (id == R.id.nav_blog) {
-//
-//        } else if (id == R.id.nav_manage) {
-//
-//        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

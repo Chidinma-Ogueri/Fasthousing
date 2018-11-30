@@ -10,6 +10,12 @@
     <dimen name="logomargin">30dp</dimen>
     <dimen name="searchview">200dp</dimen>
 
+    <dimen name="imageButton">50dp</dimen>
+
+    <dimen name="textsize">20sp</dimen>
+    <dimen name="drawable_padding">4dp</dimen>
+    <dimen name="margin_size">20dp</dimen>
+
     <dimen name="jumbotron">320dp</dimen>
     <dimen name="jumbotronHeight">30dp</dimen>
     <dimen name="padding">10dp</dimen>

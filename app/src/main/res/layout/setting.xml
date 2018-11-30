@@ -11,33 +11,28 @@
         android:orientation="vertical">
         <TextView
             android:id="@+id/tvRate"
-            android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/star"
-            android:drawablePadding="@dimen/drawable_padding"
             android:text="@string/rate"
-            android:textSize="@dimen/textsize"
-            android:padding="@dimen/padding"
-            android:layout_marginTop="@dimen/jumbotronHeight"
-            android:layout_marginLeft="@dimen/margin_size"
-            android:layout_marginRight="@dimen/margin_size"
+            android:textSize="24sp"
+            android:padding="4dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:layout_gravity="center"/>
         <TextView
             android:id="@+id/tvAbout"
-            android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/about_us"
-            android:drawablePadding="@dimen/drawable_padding"
             android:drawableLeft="@drawable/ic_info_black_24dp"
-            android:textSize="@dimen/textsize"
-            android:padding="@dimen/padding"
-            android:layout_marginTop="@dimen/jumbotronHeight"
-            android:layout_marginLeft="@dimen/margin_size"
-            android:layout_marginRight="@dimen/margin_size"
+            android:textSize="24sp"
+            android:padding="4dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:layout_gravity="center"/>
 
     </LinearLayout>
-
 </LinearLayout>

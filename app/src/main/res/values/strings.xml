@@ -27,11 +27,14 @@
     <string name="spread">Spread</string>
     <string name="share">Share this App </string>
     <string name="rate">Rate Us</string>
+    <string name="like">Like Us</string>
     <string name="feedback">Feedback</string>
     <string name="email_us">Email Us</string>
     <string name="general">General info</string>
     <string name="privacy">Privacy policy</string>
     <string name="terms">Terms and Conditions</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
     <string name="social_media">Social Media Handles</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -39,6 +42,7 @@
     <string name="title_rent_list">Items</string>
     <string name="title_rent_detail">Rent Detail</string>
     <string name="title_activity_settings">Settings</string>
+
 
     <!-- Strings related to Settings -->
 
