@@ -10,9 +10,9 @@ import android.widget.TextView;
 import java.util.zip.Inflater;
 
 public class Setting extends AppCompatActivity {
-    private TextView tvRate, tvAbout;
+    private TextView tvChangeEmail,tvChangePhone,tvChangePassword,tvRate, tvAbout;
 
-    private String rate, about;
+    private String email, phone, password,rate, about;
 
 
     @Override
@@ -20,11 +20,13 @@ public class Setting extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
 
+//        tvChangeEmail = findViewById(R.id.tvEmail);
+//        tvChangePhone = findViewById(R.id.tvPhone);
+//        tvChangePassword = findViewById(R.id.tvPassword);
         tvRate = findViewById(R.id.tvRate);
         tvAbout = findViewById(R.id.tvAbout);
 
-        rate = tvRate.getText().toString().trim();
-        about= tvAbout.getText().toString().trim();
+
 
         tvRate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,7 +39,7 @@ public class Setting extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //link to website
-                startActivity(new Intent(Setting.this, AboutPage.class));
+                startActivity(new Intent(Setting.this, AboutUs.class));
             }
         });
     }

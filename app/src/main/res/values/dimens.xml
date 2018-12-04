@@ -6,6 +6,11 @@
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+
     <dimen name="logodimen">80dp</dimen>
     <dimen name="logomargin">30dp</dimen>
     <dimen name="searchview">200dp</dimen>

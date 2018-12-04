@@ -6,24 +6,20 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="chidinma.com.fasthousing.HomePage"
+
     tools:showIn="@layout/app_bar_home_page">
-    <SearchView
-        android:layout_width="@dimen/jumbotron"
-        android:layout_height="@dimen/jumbotronHeight"
-        android:background="@color/orange"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:orientation="horizontal"
-        android:iconifiedByDefault="false"
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         >
-        <requestFocus />
+        <include layout="@layout/activity_searchable"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
 
-    </SearchView>
 
-
-
+    </LinearLayout>
 
 
 

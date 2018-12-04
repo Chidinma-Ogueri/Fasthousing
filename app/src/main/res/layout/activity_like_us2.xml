@@ -18,27 +18,27 @@
         android:padding="30dp"
         android:layout_marginTop="20dp"
         >
-        <ImageView
+        <ImageButton
             android:id="@+id/imageFacebook"
             android:layout_weight="1"
             android:focusable="true"
             android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:src="@drawable/facebook"/>
-        <ImageView
+            android:layout_height="80dp"
+            android:background="@drawable/facebook"/>
+        <ImageButton
             android:id="@+id/imageTwitter"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:focusable="true"
-            android:layout_height="60dp"
-            android:src="@drawable/twitter"/>
-        <ImageView
+            android:layout_height="80dp"
+            android:background="@drawable/twitter"/>
+        <ImageButton
             android:id="@+id/imageGooglePlus"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:focusable="true"
-            android:layout_height="60dp"
-            android:src="@drawable/googleplus"/>
+            android:layout_height="80dp"
+            android:background="@drawable/googleplus"/>
 
     </LinearLayout>
 </LinearLayout>

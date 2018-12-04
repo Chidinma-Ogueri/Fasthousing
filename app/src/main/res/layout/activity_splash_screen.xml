@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -20,15 +20,17 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/margin_size"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+       >
+
     </LinearLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:alpha=".5"
-        android:layout_above="@id/layoutDots"
-        android:background="@android:color/white" />
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:alpha=".5"-->
+        <!--android:layout_above="@id/layoutDots"-->
+        <!--android:background="@android:color/white" />-->
 
     <Button
         android:id="@+id/btn_next"
@@ -51,4 +53,4 @@
         android:textColor="@android:color/white" />
 
 
-</LinearLayout>
+</RelativeLayout>
