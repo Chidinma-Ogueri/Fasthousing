@@ -5,4 +5,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="details_about">Details about the house</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="post">Post</string>
+    <string name="create_post">Create post</string>
 </resources>
