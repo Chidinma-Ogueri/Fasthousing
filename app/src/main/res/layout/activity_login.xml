@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fee"
+    android:orientation="vertical"
+    tools:context="chidinma.com.fasthousing.Activity.LoginActivity">
+
+
+
+    <ImageView
+        android:layout_width="@dimen/logodimen2"
+        android:layout_height="@dimen/marginLeft"
+        android:background="@drawable/fast"
+        android:layout_marginTop="@dimen/marginLeft"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/etemail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:padding="@dimen/drawable_padding"
+        android:layout_height="@dimen/logomargin"
+        android:hint="@string/email"
+        android:background="@drawable/corder"
+        android:layout_marginLeft="@dimen/logodimen"
+        android:layout_marginRight="@dimen/logodimen"
+        android:layout_marginTop="@dimen/logomargin"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:drawableLeft="@drawable/email"
+        />
+
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:padding="@dimen/drawable_padding"
+        android:layout_height="@dimen/logomargin"
+        android:hint="@string/password"
+        android:background="@drawable/corder"
+        android:layout_marginLeft="@dimen/logodimen"
+        android:layout_marginRight="@dimen/logodimen"
+        android:layout_marginTop="@dimen/logomargin"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:drawableLeft="@drawable/lock"
+        />
+
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="@dimen/logomargin2"
+        android:layout_height="@dimen/logomargin"
+        android:background="@drawable/sis"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/logomargin"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/textsize1"
+        />
+
+
+    <Button
+        android:id="@+id/btnforgotten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgotten"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/imageButton"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorme" />
+
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding"
+        android:background="@color/colorme"
+        android:textColor="@color/colorPrimary"/>
+
+
+</LinearLayout>

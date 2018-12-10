@@ -4,67 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="chidinma.com.fasthousing.Setting">
+    tools:context="chidinma.com.fasthousing.Activity.Setting"
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/my_account"
                 android:textSize="@dimen/textsize"
+                android:textColor="@color/colorme"
                 android:layout_marginTop="@dimen/jumbotronHeight"
                 android:layout_marginLeft="@dimen/margin_size"
                 android:layout_marginRight="@dimen/margin_size"
                 />
         <TextView
             android:id="@+id/tvEmail"
-            android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/change_email"
             android:drawablePadding="@dimen/drawable_padding"
             android:drawableLeft="@drawable/ic_email"
             android:textSize="@dimen/textsize"
+            android:textColor="@color/colorme"
             android:padding="@dimen/padding"
             android:layout_marginTop="@dimen/jumbotronHeight"
             android:layout_marginLeft="@dimen/margin_size"
             android:layout_marginRight="@dimen/margin_size"
             android:layout_gravity="center"/>
+      <view
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/smallest"
+          android:background="@color/colorme"/>
         <TextView
-            android:id="@+id/tvPhone"
-            android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/change_phone"
-            android:drawablePadding="@dimen/drawable_padding"
-            android:drawableLeft="@drawable/ic_settings_phone"
+            android:text="@string/feedback"
+            android:textColor="@color/colorme"
             android:textSize="@dimen/textsize"
-            android:padding="@dimen/padding"
             android:layout_marginTop="@dimen/jumbotronHeight"
             android:layout_marginLeft="@dimen/margin_size"
             android:layout_marginRight="@dimen/margin_size"
-            android:layout_gravity="center"/>
-            <!--<TextView-->
-                <!--android:id="@+id/tvPassword"-->
-                <!--android:clickable="true"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/change_password"-->
-                <!--android:drawablePadding="@dimen/drawable_padding"-->
-                <!--android:drawableLeft="@drawable/ic_adjust"-->
-                <!--android:textSize="@dimen/textsize"-->
-                <!--android:padding="@dimen/padding"-->
-                <!--android:layout_marginTop="@dimen/jumbotronHeight"-->
-                <!--android:layout_marginLeft="@dimen/margin_size"-->
-                <!--android:layout_marginRight="@dimen/margin_size"-->
-                <!--android:layout_gravity="center"/>-->
-        </LinearLayout>
+            />
         <TextView
             android:id="@+id/tvRate"
             android:clickable="true"
@@ -73,12 +57,17 @@
             android:drawableLeft="@drawable/star"
             android:drawablePadding="@dimen/drawable_padding"
             android:text="@string/rate"
+            android:textColor="@color/colorme"
             android:textSize="@dimen/textsize"
             android:padding="@dimen/padding"
             android:layout_marginTop="@dimen/jumbotronHeight"
             android:layout_marginLeft="@dimen/margin_size"
             android:layout_marginRight="@dimen/margin_size"
             android:layout_gravity="center"/>
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/smallest"
+            android:background="@color/colorme"/>
         <TextView
             android:id="@+id/tvAbout"
             android:clickable="true"
@@ -86,6 +75,7 @@
             android:layout_height="wrap_content"
             android:text="@string/about_us"
             android:drawablePadding="@dimen/drawable_padding"
+            android:textColor="@color/colorme"
             android:drawableLeft="@drawable/ic_info_black_24dp"
             android:textSize="@dimen/textsize"
             android:padding="@dimen/padding"

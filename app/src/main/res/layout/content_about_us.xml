@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="chidinma.com.fasthousing.AboutUs"
+    tools:context="chidinma.com.fasthousing.Activity.AboutUs"
     tools:showIn="@layout/activity_about_us">
 
     <TextView

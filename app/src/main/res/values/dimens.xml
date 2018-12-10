@@ -6,25 +6,41 @@
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
-    <dimen name="img_width_height">120dp</dimen>
-    <dimen name="desc_padding">40dp</dimen>
+
     <dimen name="slide_desc">16dp</dimen>
     <dimen name="slide_title">30dp</dimen>
+    <dimen name="smallest">2dp</dimen>
 
-    <dimen name="logodimen">80dp</dimen>
-    <dimen name="logomargin">30dp</dimen>
-    <dimen name="searchview">200dp</dimen>
-
-    <dimen name="imageButton">50dp</dimen>
-
-    <dimen name="textsize">20sp</dimen>
     <dimen name="drawable_padding">4dp</dimen>
-    <dimen name="margin_size">20dp</dimen>
-
-    <dimen name="jumbotron">320dp</dimen>
-    <dimen name="jumbotronHeight">30dp</dimen>
+    <dimen name="drawable_padding1">5dp</dimen>
+    <dimen name="weight">0dp</dimen>
     <dimen name="padding">10dp</dimen>
+    <dimen name="padding1">13dp</dimen>
+    <dimen name="padding2">15dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="margin_size">20dp</dimen>
+    <dimen name="logomargin">30dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="jumbotronHeight">30dp</dimen>
+    <dimen name="imageButton">50dp</dimen>
+    <dimen name="imageLayout">60dp</dimen>
+    <dimen name="marginLeft">70dp</dimen>
+    <dimen name="logodimen">80dp</dimen>
+    <dimen name="logodimen2">90dp</dimen>
+    <dimen name="logomargin2">100dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="searchview">200dp</dimen>
+    <dimen name="alignment">300dp</dimen>
+    <dimen name="jumbotron">320dp</dimen>
+    <dimen name="layoutWidth">240dp</dimen>
+
+
     <dimen name="app_bar_height">200dp</dimen>
     <dimen name="item_width">200dp</dimen>
-    <dimen name="text_margin">16dp</dimen>
+
+<!--textSize-->
+    <dimen name="textsize1">10sp</dimen>
+    <dimen name="textsize">20sp</dimen>
+    <dimen name="textSize2">30sp</dimen>
+
 </resources>

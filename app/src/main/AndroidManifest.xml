@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="chidinma.com.fasthousing">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -14,28 +15,36 @@
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
         <activity
-            android:name=".HomePage"
+            android:name=".Activity.HomePage"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Setting" />
-        <activity android:name=".DashBoard" />
-        <activity android:name=".SplashScreen">
+        <activity android:name=".Activity.Setting" />
+        <activity android:name=".SplashScreenP.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashScreen1" />
-        <activity android:name=".SplashScreen2" />
-        <activity android:name=".SplashScreen3" />
-        <activity android:name=".SplashScreen4" />
+        <activity android:name=".SplashScreenP.SplashScreen1" />
+        <activity android:name=".SplashScreenP.SplashScreen2" />
+        <activity android:name=".SplashScreenP.SplashScreen3" />
+        <activity android:name=".SplashScreenP.SplashScreen4" />
         <activity
-            android:name=".AboutUs"
+            android:name=".Activity.AboutUs"
             android:label="@string/title_activity_scrolling_about"
             android:theme="@style/AppTheme" />
-        <activity android:name=".LIkeUs" />
-        <activity android:name=".Searchable"></activity>
+        <activity android:name=".Activity.LIkeUs" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.RegistrationActivity" />
+        <activity android:name=".Activity.ForgottenActivity" />
+        <activity android:name=".Activity.Searchable" />
+        <activity android:name=".RecyclerView.HorizontalRecyclerView" />
+        <activity android:name=".Activity.EmailActivity" />
+        <activity
+            android:name=".Activity.AgentDash"
+            android:label="@string/title_activity_agent_dash"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

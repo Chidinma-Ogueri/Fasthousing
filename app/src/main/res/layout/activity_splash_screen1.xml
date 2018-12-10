@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
-    tools:context="chidinma.com.fasthousing.SplashScreen1">
+    android:background="@color/blue"
+    tools:context="chidinma.com.fasthousing.SplashScreenP.SplashScreen1">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/ic_food"
+            android:src="@drawable/fasthousing"
 
             />
 

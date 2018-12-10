@@ -17,4 +17,8 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="MyButton" parent="dialog_blue_button">
+        <item name="color">@color/colorOrange</item>
+    </style>
+
 </resources>

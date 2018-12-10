@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fee"
+    android:orientation="vertical"
+    tools:context="chidinma.com.fasthousing.Activity.ForgottenActivity">
+
+
+
+    <ImageView
+        android:layout_width="@dimen/logodimen"
+        android:layout_height="@dimen/imageLayout"
+        android:background="@drawable/fast"
+        android:layout_marginTop="@dimen/marginLeft"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="@dimen/layoutWidth"
+        android:layout_height="@dimen/img_width_height"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="@dimen/imageLayout">
+
+
+        <EditText
+            android:id="@+id/etnew_pass"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="@dimen/desc_padding"
+            android:layout_marginRight="@dimen/padding"
+            android:layout_marginLeft="@dimen/padding"
+            android:layout_gravity="center"
+            android:background="@drawable/rorder"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="@dimen/padding"
+            android:hint="@string/new_pass"
+            android:textColorHint="@color/colorPrimary"
+            android:gravity="center"
+            />
+
+
+        <EditText
+            android:id="@+id/etconfirm_pass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/desc_padding"
+            android:layout_marginRight="@dimen/padding"
+            android:inputType="text"
+            android:layout_marginLeft="@dimen/padding"
+            android:layout_gravity="center"
+            android:background="@drawable/rorder"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="@dimen/padding"
+            android:hint="@string/confirm_pass"
+            android:textColorHint="@color/colorPrimary"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corder"
+        android:text="@string/login"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

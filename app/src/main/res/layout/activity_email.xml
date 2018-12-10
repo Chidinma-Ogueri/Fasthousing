@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fee"
+    android:orientation="vertical"
+    tools:context="chidinma.com.fasthousing.Activity.EmailActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/logodimen"
+        android:layout_height="@dimen/imageLayout"
+        android:background="@drawable/fast"
+        android:layout_marginTop="@dimen/marginLeft"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/sign_in"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="@dimen/textsize"
+        android:layout_marginTop="@dimen/margin_size"/>
+
+
+    <EditText
+        android:id="@+id/etemail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:padding="@dimen/drawable_padding"
+        android:layout_height="@dimen/logomargin"
+        android:hint="@string/email"
+        android:background="@drawable/corder"
+        android:layout_marginLeft="@dimen/logodimen"
+        android:layout_marginRight="@dimen/logodimen"
+        android:layout_marginTop="@dimen/logomargin"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:drawableLeft="@drawable/email"
+        />
+
+    <Button
+        android:id="@+id/btnForgotten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgotten_email"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/imageButton"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorme" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/alignment"
+        android:layout_height="@dimen/app_bar_height"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rext"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/imageButton"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="@dimen/marginLeft"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

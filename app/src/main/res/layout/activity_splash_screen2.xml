@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/orange"
-    tools:context="chidinma.com.fasthousing.SplashScreen2">
+    tools:context="chidinma.com.fasthousing.SplashScreenP.SplashScreen2">
 
     <LinearLayout
         android:layout_width="wrap_content"

@@ -6,6 +6,34 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="forgotten">Forgotten Password?</string>
+    <string name="see">see our privacy policy and terms and condition</string>
+    <string name="new_pass">New Password</string>
+    <string name="reg">Dont have an account? Register</string>
+    <string name="username">Username</string>
+    <string name="dont">Dont have an account</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgotten_email">Forgotten Email?</string>
+    <string name="create_account">Create Account</string>
+    <string name="rext">Next</string>
+    <string name="agent">Register as an agent/Landlord</string>
+    <string name="menu">Menu</string>
+    <string name="featured">Featured Houses</string>
+    <string name="log_out">Log Out</string>
+    <string name="agentSign">Agent</string>
+    <string name="userSign">User</string>
+    <string name="registerAs">Register as: </string>
+    <string name="shortTerm">Short Term Houses</string>
+    <string name="longTerm">Long Term Houses</string>
+    <string name="moreHouses">More houses</string>
+    <string name="more">View More</string>
+
+
 
     <string name="my_account">My Account</string>
     <string name="sign_up">SignUp/SignIn</string>
@@ -23,6 +51,9 @@
     <string name="location">Location</string>
     <string name="duration">Duration</string>
     <string name="title_activity_slide">SlideActivity</string>
+
+    <string name="agent1">Agent</string>
+    <string name="user">User</string>
 
     <string name="spread">Spread</string>
     <string name="share">Share this App </string>
@@ -121,7 +152,7 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
-    <string name="title_activity_scrolling_about">ScrollingAbout</string>
+    <string name="title_activity_scrolling_about">About Fasthousing</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -212,6 +243,7 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_slider">Slider</string>
+    <string name="title_activity_agent_dash">AgentDash</string>
 
 
 </resources>

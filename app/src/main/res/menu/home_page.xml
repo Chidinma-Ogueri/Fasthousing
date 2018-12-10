@@ -15,25 +15,3 @@
 </menu>
 
 
- <!--<LinearLayout-->
-<!--android:layout_width="match_parent"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:orientation="horizontal"-->
-<!--android:layout_marginLeft="280dp"-->
-    <!--&gt;-->
-
-<!--<ImageButton-->
-    <!--android:id="@+id/imageView"-->
-    <!--android:layout_width="@dimen/imageButton"-->
-    <!--android:layout_height="@dimen/imageButton"-->
-    <!--android:background="@android:color/transparent"-->
-    <!--android:src="@drawable/ic_menu_share" />-->
-
-<!--<ImageButton-->
-    <!--android:id="@+id/imageDot"-->
-    <!--android:layout_width="@dimen/imageButton"-->
-    <!--android:layout_height="@dimen/imageButton"-->
-    <!--android:background="@android:color/transparent"-->
-    <!--app:srcCompat="@drawable/vert" />-->
-
-<!--</LinearLayout>-->
